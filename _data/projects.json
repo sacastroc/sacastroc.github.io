@@ -1,30 +1,23 @@
 [
 	{
-		"name": "Cool project 1",
+		"name": "OOP Works + Final project game",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
+		"url": "https://github.com/rmisean/Programacion-Orientada-a-Objetos-2015-2",
+		"date": "November 2015",
+		"tags": ["Java","Game","OOP"]
 	},
 	{
-		"name": "Cool project 2",
+		"name": "Operative System Works",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "May 2014",
-		"tags": ["Android","PHP"]
+		"url": "https://github.com/sacastroc/SO",
+		"date": "November 2016",
+		"tags": ["Java","Threads"]
 	},
 	{
-		"name": "Cool project 3",
+		"name": "Ironhacks Purdue UNAL 2017",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","PHP"]
-	},
-	{
-		"name": "Cool project 4",
-		"image": "placeholder.jpg",
-		"date": "Oct 2016",
-		"tags": ["Android","nodejs"]
+		"url": "https://github.com/goldironhack/2017-Purdue-UNAL-IronHack-sacastroc",
+		"date": "June 2017",
+		"tags": ["HTML","JQuery","PHP","D3","Javascript"]
 	}
-
 ]
