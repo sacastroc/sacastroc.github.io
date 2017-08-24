@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-position: center center; }
   .project-outer span.tags {
-    border-bottom: 1px #888 solid;
+    border-bottom: 1px #777 solid;
     margin: 0 5px;
     font-size: 10px; }
     .project-outer span.tags:first-child, .project-outer span.tags:last-child {

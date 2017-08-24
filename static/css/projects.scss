@@ -50,7 +50,7 @@ $text_size: 13px;
 
     span.tags {
 
-        @include borderbtm( #888 );
+        @include borderbtm( #777 );
         @include margins(0 5px);
         font-size: ($heading_size / 2);
 
@@ -100,4 +100,3 @@ $text_size: 13px;
         .active { background: #ccc; }
     }
 }
-

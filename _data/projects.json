@@ -1,23 +1,23 @@
 [
 	{
 		"name": "OOP Works + Final project game",
-		"image": "placeholder.jpg",
+		"image": "paper-flight.jpg",
 		"url": "https://github.com/rmisean/Programacion-Orientada-a-Objetos-2015-2",
 		"date": "November 2015",
-		"tags": ["Java","Game","OOP"]
+		"tags": ["Java","Game","OOP","Public","Collab"]
 	},
 	{
 		"name": "Operative System Works",
-		"image": "placeholder.jpg",
+		"image": "code.jpg",
 		"url": "https://github.com/sacastroc/SO",
 		"date": "November 2016",
-		"tags": ["Java","Threads"]
+		"tags": ["Java","Threads","Public"]
 	},
 	{
-		"name": "Ironhacks Purdue UNAL 2017",
-		"image": "placeholder.jpg",
+		"name": "Rentill - Ironhacks Purdue UNAL 2017",
+		"image": "rentill-pic.jpg",
 		"url": "https://github.com/goldironhack/2017-Purdue-UNAL-IronHack-sacastroc",
 		"date": "June 2017",
-		"tags": ["HTML","JQuery","PHP","D3","Javascript"]
+		"tags": ["HTML","JQuery","D3","Javascript","Private"]
 	}
 ]
