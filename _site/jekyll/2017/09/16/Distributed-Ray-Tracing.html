@@ -7,15 +7,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" href="/static/img/favicon.ico" />
-        <title>Test for posting - Sergio's Web Page</title>
+        <title>[ES] Ray Tracing - Distribuido - Sergio's Web Page</title>
         <meta name="author" content="Sergio Castro" />
-        <meta name="description" content="Test for posting" />
-        <meta name="keywords" content="Test for posting, Sergio's Web Page, jekyll" />
+        <meta name="description" content="[ES] Ray Tracing - Distribuido" />
+        <meta name="keywords" content="[ES] Ray Tracing - Distribuido, Sergio's Web Page, jekyll" />
 
         <meta content="0" property="fb:app_id">
         <meta content="Sergio's Web Page" property="og:site_name">
         
-          <meta content="Test for posting" property="og:title">
+          <meta content="[ES] Ray Tracing - Distribuido" property="og:title">
         
         
           <meta content="article" property="og:type">
@@ -24,10 +24,10 @@
           <meta content="My Personal Blog" property="og:description">
         
         
-          <meta content="http://localhost:4000/jekyll/2017/08/23/Test.html" property="og:url">
+          <meta content="http://localhost:4000/jekyll/2017/09/16/Distributed-Ray-Tracing.html" property="og:url">
         
         
-          <meta content="2017-08-23T08:45:09-05:00" property="article:published_time">
+          <meta content="2017-09-16T15:10:00-05:00" property="article:published_time">
           <meta content="http://localhost:4000/about/" property="article:author">
         
         
@@ -45,10 +45,10 @@
         <meta name="twitter:site" content="@\#">
         <meta name="twitter:creator" content="@\#">
         
-          <meta name="twitter:title" content="Test for posting">
+          <meta name="twitter:title" content="[ES] Ray Tracing - Distribuido">
         
         
-          <meta name="twitter:url" content="http://localhost:4000/jekyll/2017/08/23/Test.html">
+          <meta name="twitter:url" content="http://localhost:4000/jekyll/2017/09/16/Distributed-Ray-Tracing.html">
         
         
           <meta name="twitter:description" content="My Personal Blog">
@@ -115,7 +115,7 @@
           </div>
           <div class="col-md-9 col-sm-8 col-xs-12">
           <div class="row">
-            <h2 class="blog-title-pro col-md-6 col-sm-12 col-xs-12 ">Test for posting</h2>
+            <h2 class="blog-title-pro col-md-6 col-sm-12 col-xs-12 ">[ES] Ray Tracing - Distribuido</h2>
             
             <!-- <div class="col-md-6 col-sm-12 col-xs-12 searchcontrol" id="js-search">
               <input class="form-control" type="text" id="js-search__input" placeholder="Search">
@@ -125,7 +125,7 @@
             </div>
             <p class="info">
               
-                <span class="time">23 Aug 2017</span>
+                <span class="time">16 Sep 2017</span>
               
               
                 <span class="categories">
@@ -157,7 +157,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12 current-menu-item Test.html"><a href="/" target="_self"><i class="fa fa-home"></i> Home</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12 current-menu-item Distributed-Ray-Tracing.html"><a href="/" target="_self"><i class="fa fa-home"></i> Home</a></li>
 
 	
 	
@@ -167,7 +167,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  Test.html"><a href="/projects" target="_self"><i class="fa fa-desktop"></i> Projects</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  Distributed-Ray-Tracing.html"><a href="/projects" target="_self"><i class="fa fa-desktop"></i> Projects</a></li>
 
 	
 	
@@ -177,7 +177,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  Test.html"><a href="/about/" target="_self"><i class="fa fa-comments"></i> About</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  Distributed-Ray-Tracing.html"><a href="/about/" target="_self"><i class="fa fa-comments"></i> About</a></li>
 
 	
 	
@@ -187,7 +187,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  Test.html"><a href="https://github.com/sacastroc" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  Distributed-Ray-Tracing.html"><a href="https://github.com/sacastroc" target="_blank"><i class="fa fa-github"></i> Github</a></li>
 
 </ul>
 
@@ -198,7 +198,27 @@
         <div class="col-md-9 col-xs-12 full">
           <div class="post-content well">
 <article class="content">
-    <div class="post"><p>Test for posting with markdown</p>
+    <div class="post"><h2 id="es-ray-tracing---distribuido">[ES] Ray Tracing - Distribuido</h2>
+
+<p>Hoy se analizará un algoritmo de renderización llamado Ray Tracing, que consiste en obtener una imagen de un escenario desde un punto de vista, como si el ojo fuera un foco, un foco de de rayos que chocaran con cualquier objeto del escenario hasta una fuente de luz, o tambien cualquier otro lugar que no tenga ningun objeto. Y de ahí</p>
+
+<p><img src="/assets/800px-Ray_trace_diagram.svg.png" alt="Ray Tracing" /></p>
+
+<p>Como se puede ver, se logra captar un instante del escenario. Entonces si queremos captar una representación de un escenario con objetos en movimiento no puede ser posible con lo que ya sabemos.</p>
+
+<p><img src="/assets/blurr.jpg" alt="Distributed Ray Tracing" /></p>
+
+<p>Para lograr esto, se necesita de emplear la técnica de Ray Tracing Distribuido. Esto no tiene que ver con sistemas distribuidos o algo relacionado a mejorar el rendimiento de esta técnica, ya que sabemos que es una de las técnicas más costosas en terminos de rendimiento.</p>
+
+<p>El ray tracing, como se ve en la primera figura, consiste en lanzar un rayo para representar un punto del escenario, es un rayo sin área, generando una imagen perfecta del escenario para muchos generando una imagen irreal. Para poder quitar este grado de perfección no consideraremos un rayo generado para un punto, si no un promedio de la información que se tiene de diferentes rayos en un área, para un punto determinado.</p>
+
+<p><img src="/assets/img272.gif" alt="Distributed Tecnique" /></p>
+
+<p>Logrando así una imagen en movimiento, si el área de los rayos es muy grande, o una imagen más “real” si se emplea con un área muy pequeño, por ejemplo en vez de una sombra con bordes bien definidos, podemos ver una figura con una sombra penumbra, algo que ocurre en la vida real.</p>
+
+<p><img src="/assets/penumbra.png" alt="Penumbra Example" /></p>
+
+<p>Estos son solo unos de los posibles efectos que se pueden lograr con el método del Ray Tracing Distribuido.</p>
 </div>
     <hr />
     <div class="share-page">
@@ -211,7 +231,7 @@
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 <!-- Facebook -->
-<div class="fb-share-button" data-href="http://localhost:4000/jekyll/2017/08/23/Test.html" data-layout="button_count" style="position: relative; top: -8px; left: 3px;"></div>
+<div class="fb-share-button" data-href="http://localhost:4000/jekyll/2017/09/16/Distributed-Ray-Tracing.html" data-layout="button_count" style="position: relative; top: -8px; left: 3px;"></div>
 </div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -229,20 +249,6 @@
     
         
             
-                
-                <div class="panel-body">
-                <h4>Related Posts</h4>
-                <ul>
-                
-                <li class="relatedPost">
-                    <a href="http://localhost:4000/jekyll/2017/09/16/Distributed-Ray-Tracing.html">[ES] Ray Tracing - Distribuido</a>
-                    
-                        <small>(Categories: <a href="/category/jekyll">jekyll</a>)</small>
-                    
-                </li>
-                
-                
-            
         
     
 
@@ -250,6 +256,10 @@
     
         
             
+                
+                <div class="panel-body">
+                <h4>Related Posts</h4>
+                <ul>
                 
                 <li class="relatedPost">
                     <a href="http://localhost:4000/jekyll/2017/08/24/first-post.html">Welcome to my blog</a>
@@ -284,6 +294,16 @@
     
         
             
+                
+                <li class="relatedPost">
+                    <a href="http://localhost:4000/jekyll/2017/08/23/Test.html">Test for posting</a>
+                    
+                        <small>(Categories: <a href="/category/jekyll">jekyll</a>)</small>
+                    
+                </li>
+                
+                
+            
         
     
 
@@ -294,8 +314,8 @@
 
 <div class="PageNavigation">
   
+    <a class="prev pull-left" href="http://localhost:4000/jekyll/2017/08/24/first-post.html">&laquo; Welcome to my blog</a>
   
-    <a class="next pull-right" href="http://localhost:4000/jekyll/2017/08/23/update-site.html">Update Info &raquo;</a>
   
 </div>
 
@@ -306,8 +326,8 @@
         /* <![CDATA[ */
 
         var disqus_shortname = "";
-        var disqus_identifier = "http://localhost:4000_Test for posting";
-        var disqus_title = "Test for posting";
+        var disqus_identifier = "http://localhost:4000_[ES] Ray Tracing - Distribuido";
+        var disqus_title = "[ES] Ray Tracing - Distribuido";
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
