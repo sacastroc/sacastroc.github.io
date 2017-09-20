@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[ES] Ray Tracing - Distribuido"
-date:   2017-09-16 20:10:00
+date:   2017-09-19 21:07:00
 categories: jekyll
 ---
 
