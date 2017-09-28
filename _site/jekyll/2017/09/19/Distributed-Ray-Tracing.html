@@ -24,10 +24,10 @@
           <meta content="My Personal Blog" property="og:description">
         
         
-          <meta content="http://localhost:4000/jekyll/2017/09/16/Distributed-Ray-Tracing.html" property="og:url">
+          <meta content="http://localhost:4000/jekyll/2017/09/19/Distributed-Ray-Tracing.html" property="og:url">
         
         
-          <meta content="2017-09-16T15:10:00-05:00" property="article:published_time">
+          <meta content="2017-09-19T16:07:00-05:00" property="article:published_time">
           <meta content="http://localhost:4000/about/" property="article:author">
         
         
@@ -48,7 +48,7 @@
           <meta name="twitter:title" content="[ES] Ray Tracing - Distribuido">
         
         
-          <meta name="twitter:url" content="http://localhost:4000/jekyll/2017/09/16/Distributed-Ray-Tracing.html">
+          <meta name="twitter:url" content="http://localhost:4000/jekyll/2017/09/19/Distributed-Ray-Tracing.html">
         
         
           <meta name="twitter:description" content="My Personal Blog">
@@ -125,7 +125,7 @@
             </div>
             <p class="info">
               
-                <span class="time">16 Sep 2017</span>
+                <span class="time">19 Sep 2017</span>
               
               
                 <span class="categories">
@@ -200,25 +200,36 @@
 <article class="content">
     <div class="post"><h2 id="es-ray-tracing---distribuido">[ES] Ray Tracing - Distribuido</h2>
 
-<p>Hoy se analizará un algoritmo de renderización llamado Ray Tracing, que consiste en obtener una imagen de un escenario desde un punto de vista, como si el ojo fuera un foco, un foco de de rayos que chocaran con cualquier objeto del escenario hasta una fuente de luz, o tambien cualquier otro lugar que no tenga ningun objeto. Y de ahí</p>
+<div style="text-align: justify">
+Hoy se analizará un algoritmo de renderización llamado Ray Tracing, que consiste en obtener una imagen de un escenario desde un punto de vista, como si el ojo fuera un foco, un foco de de rayos que chocaran con cualquier objeto del escenario hasta una fuente de luz, o tambien cualquier otro lugar que no tenga ningun objeto.
 
-<p><img src="/assets/800px-Ray_trace_diagram.svg.png" alt="Ray Tracing" /></p>
+<br /><br />
+<img src="/assets/800px-Ray_trace_diagram.svg.png" style="display:block;margin:0 auto" alt="Ray Tracing" />
+<br /><br />
 
-<p>Como se puede ver, se logra captar un instante del escenario. Entonces si queremos captar una representación de un escenario con objetos en movimiento no puede ser posible con lo que ya sabemos.</p>
+Como se puede ver, se logra captar un instante del escenario. Entonces si queremos captar una representación de un escenario con objetos en movimiento no puede ser posible con lo que ya sabemos.
 
-<p><img src="/assets/blurr.jpg" alt="Distributed Ray Tracing" /></p>
+<br /><br />
+<img src="/assets/blurr.jpg" style="display:block;margin:0 auto" alt="Distributed Ray Tracing" />
+<br /><br />
 
-<p>Para lograr esto, se necesita de emplear la técnica de Ray Tracing Distribuido. Esto no tiene que ver con sistemas distribuidos o algo relacionado a mejorar el rendimiento de esta técnica, ya que sabemos que es una de las técnicas más costosas en terminos de rendimiento.</p>
+Para lograr esto, se necesita de emplear la técnica de Ray Tracing Distribuido. Esto no tiene que ver con sistemas distribuidos o algo relacionado a mejorar el rendimiento de esta técnica, ya que sabemos que es una de las técnicas más costosas en terminos de rendimiento.
 
-<p>El ray tracing, como se ve en la primera figura, consiste en lanzar un rayo para representar un punto del escenario, es un rayo sin área, generando una imagen perfecta del escenario para muchos generando una imagen irreal. Para poder quitar este grado de perfección no consideraremos un rayo generado para un punto, si no un promedio de la información que se tiene de diferentes rayos en un área, para un punto determinado.</p>
+<br /><br />
+El ray tracing, como se ve en la primera figura, consiste en lanzar un rayo para representar un punto del escenario, es un rayo sin área, generando una imagen perfecta del escenario para muchos generando una imagen irreal. Para poder quitar este grado de perfección no consideraremos un rayo generado para un punto, si no un promedio de la información que se tiene de diferentes rayos en un área, para un punto determinado.
 
-<p><img src="/assets/img272.gif" alt="Distributed Tecnique" /></p>
+<br /><br />
+<img src="/assets/img272.gif" style="display:block;margin:0 auto" alt="Distributed Tecnique" />
+<br /><br />
 
-<p>Logrando así una imagen en movimiento, si el área de los rayos es muy grande, o una imagen más “real” si se emplea con un área muy pequeño, por ejemplo en vez de una sombra con bordes bien definidos, podemos ver una figura con una sombra penumbra, algo que ocurre en la vida real.</p>
+Logrando así una imagen en movimiento, si el área de los rayos es muy grande, o una imagen más "real" si se emplea con un área muy pequeño, por ejemplo en vez de una sombra con bordes bien definidos, podemos ver una figura con una sombra penumbra, algo que ocurre en la vida real.
 
-<p><img src="/assets/penumbra.png" alt="Penumbra Example" /></p>
+<br /><br />
+<img src="/assets/penumbra.png" style="display:block;margin:0 auto" alt="Penumbra Example" />
+<br /><br />
 
-<p>Estos son solo unos de los posibles efectos que se pueden lograr con el método del Ray Tracing Distribuido.</p>
+Estos son solo unos de los posibles efectos que se pueden lograr con el método del Ray Tracing Distribuido.
+</div>
 </div>
     <hr />
     <div class="share-page">
@@ -231,7 +242,7 @@
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 <!-- Facebook -->
-<div class="fb-share-button" data-href="http://localhost:4000/jekyll/2017/09/16/Distributed-Ray-Tracing.html" data-layout="button_count" style="position: relative; top: -8px; left: 3px;"></div>
+<div class="fb-share-button" data-href="http://localhost:4000/jekyll/2017/09/19/Distributed-Ray-Tracing.html" data-layout="button_count" style="position: relative; top: -8px; left: 3px;"></div>
 </div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
