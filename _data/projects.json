@@ -8,7 +8,7 @@
 	},
 	{
 		"name": "Operative System Works",
-		"image": "code.jpg",
+		"image": "code.JPG",
 		"url": "https://github.com/sacastroc/SO",
 		"date": "November 2016",
 		"tags": ["Java","Threads","Public"]
@@ -22,7 +22,7 @@
 	},
 	{
 		"name": "Visual Numismatic",
-		"image": "numismatica1.jpg",
+		"image": "nemusmatica1.jpg",
 		"url": "https://github.com/visualnumismatica/visualnumismatica",
 		"date": "November 2017",
 		"tags": ["HTML","Javascript","P5.js","Collab","Public"]
